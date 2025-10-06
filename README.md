@@ -86,3 +86,32 @@ Developed by the **Centre for Advanced Data Science**,
 
 The full dataset is available on **Mendeley Data**:  
 ➡️ [https://data.mendeley.com/datasets/zrddng9xpr/1](https://data.mendeley.com/datasets/zrddng9xpr/1)
+
+---
+
+### 🔍 SEO Keywords
+
+`Okra Thermal Image Dataset`, `FLIR E75`, `thermal imaging dataset`, `agricultural imaging dataset`,   
+`non-invasive maturity classification`, `food quality assessment`, `machine learning`,   
+`deep learning`, `computer vision`, `infrared imaging`, `VIT Chennai`, `Data in Brief`.
+
+---
+
+<!-- Structured Data for Google Dataset Search -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Okra Thermal Image Dataset",
+  "description": "Thermal image dataset of okra captured using a FLIR E75 camera for non-invasive maturity classification and food quality research.",
+  "url": "https://github.com/<your-username>/Okra-Thermal-Image-Dataset",
+  "sameAs": "https://doi.org/10.17632/zrddng9xpr.1",
+  "creator": {
+    "@type": "Organization",
+    "name": "Vellore Institute of Technology, Chennai, India"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "keywords": ["okra", "thermal imaging", "agriculture", "FLIR E75", "food quality", "computer vision", "non-invasive classification", "dataset"],
+  "datePublished": "2024-06-18"
+}
+</script>
