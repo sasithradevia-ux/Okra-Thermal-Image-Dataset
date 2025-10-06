@@ -8,22 +8,26 @@
 
 ### 🧩 Overview
 
-This repository hosts the **Okra Thermal Image Dataset**, developed for *non-invasive maturity classification of okra pods* using **thermal imaging**.  
-The dataset supports research in **agricultural quality assessment**, **machine learning**, and **computer vision**.
+The **Okra Thermal Image Dataset** is a publicly available **agricultural imaging dataset** developed at  
+the *Centre for Advanced Data Science, VIT Chennai, India*.  
+It contains **501 thermal images of okra (Abelmoschus esculentus)** captured using a **FLIR E75 infrared camera**  
+for **non-invasive maturity classification** and **food-quality assessment** research.  
+
+This dataset supports **machine learning**, **deep learning**, and **computer vision** studies in  
+agriculture, post-harvest quality monitoring, and sustainability.
 
 ---
 
 ### 📊 Dataset Summary
 
 | Attribute | Description |
-|------------|--------------|
+|------------|-------------|
 | **Total Images** | 501 (JPG format) |
 | **Categories** | `adequate_matured_okra` (248) and `over_matured_okra` (253) |
-| **Image Resolution** | 640 × 480 |
-| **Thermal Imager** | FLIR E75 (320×240 thermal resolution) |
-| **Collection Site** | VIT Chennai, India (12.8406 °N, 80.1534 °E) |
+| **Camera** | FLIR E75 (320 × 240 thermal res.; 640 × 480 output) |
+| **Spectral Range** | 7.5–14 µm |
 | **Ambient Temperature** | 30 °C (controlled) |
-| **Spectral Range** | 7.5–14 μm |
+| **Location** | VIT Chennai, India (12.8406 °N, 80.1534 °E) |
 | **Publication** | *Data in Brief 55 (2024) 110645* |
 | **DOI** | [10.17632/zrddng9xpr.1](https://doi.org/10.17632/zrddng9xpr.1) |
 
@@ -45,12 +49,36 @@ Okra-Thermal-Image-Dataset/
 
 ---
 
+### 💾 How to Download Using Command Line
+
+You can directly download the dataset ZIP from **Mendeley Data** using either `wget` or `curl`.
+
+#### Using wget
+```bash
+wget "https://data.mendeley.com/public-files/datasets/zrddng9xpr/files/<YOUR_FILE_ID>/file_downloaded.zip" -O okra_dataset.zip
+unzip okra_dataset.zip -d data/
+```
+
+#### Using curl
+```bash
+curl -L "https://data.mendeley.com/public-files/datasets/zrddng9xpr/files/<YOUR_FILE_ID>/file_downloaded.zip" -o okra_dataset.zip
+unzip okra_dataset.zip -d data/
+```
+
+This will create a `data/` folder containing:  
+`adequate_matured_okra/` and `over_matured_okra/`
+
+*(Replace `<YOUR_FILE_ID>` with the actual file ID from the Mendeley download link.)*
+
+---
+
 ### 🌱 Value of the Data
 
-- Enables **non-destructive assessment** of okra maturity for agriculture and food technology.
-- Supports **machine learning and deep learning** approaches for classification tasks.
-- Facilitates **quality inspection research** using temperature distribution patterns.
-- Encourages **open science** through accessible agricultural imaging data.
+- Enables **non-destructive evaluation** of okra maturity for **agriculture and food technology**.  
+- Provides benchmark data for **computer-vision and machine-learning** model development.  
+- Facilitates **infrared-based quality inspection** and **temperature-pattern analysis**.  
+- Promotes **open-science and reproducible research** in sustainable agriculture.  
+- Serves as a foundation for **FLIR thermal-imaging datasets** in food-quality studies.
 
 ---
 
@@ -60,7 +88,7 @@ If you use this dataset, please cite:
 
 > **Sasithradevi A., Shoba S., Persiya J., Prakash P., Adeline Sneha A.**  
 > *Thermal image dataset for okra maturity analysis.*  
-> *Data in Brief*, 55 (2024) 110645.  
+> *Data in Brief,* 55 (2024) 110645.  
 > DOI: [10.1016/j.dib.2024.110645](https://doi.org/10.1016/j.dib.2024.110645)
 
 ---
@@ -68,8 +96,8 @@ If you use this dataset, please cite:
 ### 🪪 License
 
 This dataset is licensed under the  
-**Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)**  
-You are free to share and adapt the material for **non-commercial purposes** with proper attribution.
+**Creative Commons Attribution – NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+You may share and adapt the material for **non-commercial purposes** with proper attribution.
 
 [View Full License](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -78,13 +106,15 @@ You are free to share and adapt the material for **non-commercial purposes** wit
 ### 🧠 Acknowledgements
 
 Developed by the **Centre for Advanced Data Science**,  
-**Vellore Institute of Technology, Chennai, India.**
+**Vellore Institute of Technology, Chennai, India**.  
+
+Special thanks to all contributors involved in dataset curation, annotation, and validation.
 
 ---
 
 ### 🔗 Dataset Access
 
-The full dataset is available on **Mendeley Data**:  
+The complete dataset is available on **Mendeley Data**:  
 ➡️ [https://data.mendeley.com/datasets/zrddng9xpr/1](https://data.mendeley.com/datasets/zrddng9xpr/1)
 
 ---
