@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the following article and dataset DOI."
+title: "Okra Thermal Image Dataset"
+type: dataset
+authors:
+  - given-names: Sasithradevi
+    family-names: A
+  - given-names: Shoba
+    family-names: S
+  - given-names: Persiya
+    family-names: J
+  - given-names: Prakash
+    family-names: P
+  - given-names: Adeline
+    family-names: Sneha
+identifiers:
+  - type: doi
+    value: 10.17632/zrddng9xpr.1
+repository-code: "https://github.com/<your-username>/Okra-Thermal-Image-Dataset"
+abstract: >
+  Thermal images of okra captured using FLIR E75, categorized into adequately matured and over-matured groups for non-invasive maturity classification.
+keywords:
+  - okra
+  - thermal imaging
+  - agriculture
+  - food quality
+  - computer vision
+date-released: 2024-06-18
+preferred-citation:
+  type: article
+  title: "Thermal image dataset for okra maturity analysis"
+  authors:
+    - given-names: Sasithradevi
+      family-names: A
+    - given-names: Shoba
+      family-names: S
+    - given-names: Persiya
+      family-names: J
+    - given-names: P.
+      family-names: Prakash
+    - given-names: Adeline
+      family-names: Sneha
+  journal: "Data in Brief"
+  volume: "55"
+  year: 2024
+  doi: "10.1016/j.dib.2024.110645"
+  start: "110645"
