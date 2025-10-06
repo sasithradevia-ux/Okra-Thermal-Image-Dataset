@@ -55,20 +55,18 @@ You can directly download the dataset ZIP from **Mendeley Data** using either `w
 
 #### Using wget
 ```bash
-wget "https://data.mendeley.com/public-files/datasets/zrddng9xpr/files/<YOUR_FILE_ID>/file_downloaded.zip" -O okra_dataset.zip
+wget "https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/zrddng9xpr-1.zip" -O okra_dataset.zip
 unzip okra_dataset.zip -d data/
 ```
 
 #### Using curl
 ```bash
-curl -L "https://data.mendeley.com/public-files/datasets/zrddng9xpr/files/<YOUR_FILE_ID>/file_downloaded.zip" -o okra_dataset.zip
+curl -L "https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/zrddng9xpr-1.zip" -o okra_dataset.zip
 unzip okra_dataset.zip -d data/
 ```
 
 This will create a `data/` folder containing:  
 `adequate_matured_okra/` and `over_matured_okra/`
-
-*(Replace `<YOUR_FILE_ID>` with the actual file ID from the Mendeley download link.)*
 
 ---
 
